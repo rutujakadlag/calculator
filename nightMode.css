@@ -1,0 +1,91 @@
+
+div#rectangle { 
+background-color: black;
+border : 2px solid black;
+float : right;
+width : 304px;
+min-height : 458px;
+}
+
+div#calculatorHeader {
+background-color :#989A9C;
+min-height:	195px;
+}
+
+div#helpIcon{
+float: left;}
+div#switchMode{
+float: right}
+
+div#calculator{
+min-height: 195px;}
+
+div#deleteAndHistory {
+min-height : 25px;}
+
+div#historyButton {
+float: left;
+min-width : 15%
+}
+
+div#historyButton span{
+color: #EE6723 ;
+letter-spacing : 1px;
+font-size : 20px;
+font-weight: bold;
+}
+
+div#deleteButton {
+float : right;
+}
+
+
+div#numbersSection {
+min-height : 263px;
+margin : 5px;
+padding: 10px;
+}
+
+.button {
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 50%;
+	background-color : gray;
+	border : 1px solid gray;
+}
+
+.mathButtons {
+	margin: 11px;
+	color: white;
+	background-color : gray
+}
+
+.zerobutton {
+margin: 11px;
+color : white;
+background-color : gray;
+border-radius : 25%;
+width : 115px;
+text-align : right;
+}
+
+.digits {
+	color: white;
+	margin: 11px;
+	background-color:gray;
+}
+
+.digits:hover,
+.mathButtons:hover,
+#clearButton:hover {
+	background-color: blue;
+}
+
+#clearButton {
+	color: white;
+	margin: 11px;
+background-color : gray;
+}
